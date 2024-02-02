@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 
 class TestSuiteForBrowserStack(unittest.TestCase):
 
-    base_url = "https://www.browserstack.com/blbalbal"
+    base_url = "https://www.browserstack.com"
     users_sign_in_page_url = "/users/sign_in"
     user_validation_error_xpath = "//span[@aria-live='polite']"
 
